@@ -9,9 +9,11 @@ class Languages:
         return item
 
 
-ex_l = Languages('Python', 'Java', 'C++', 'JavaScript', 'PHP')
+ex_l = Languages('Python', 'Java', 'C++', 'JavaScript', 'PHP', 'Ruby')
 print(ex_l.__next__())
 print(ex_l.__next__())
 print(ex_l.__next__())
 print(ex_l.__next__())
 print(ex_l.__next__())
+print(ex_l.__next__())
+
